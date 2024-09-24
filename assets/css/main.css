@@ -559,12 +559,12 @@ h6 {
 #preloader:before {
   content: "";
   position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
+  top: calc(50% - 60px);
+  left: calc(50% - 60px);
   width: 140px;
   height: 100px;
   background: url(../img/logo.png);
-  background-size: 100%;
+  background-size: cover;
   animation: animate-preloader 1s linear infinite;
 }
 
@@ -654,6 +654,10 @@ h6 {
 	.vimeo-screen {
 		width: 350px;
 		height: 350px;
+	}
+	
+	.testimonial-item h1 {
+		font-size: 2rem !important;
 	}
 }
 
