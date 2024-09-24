@@ -581,6 +581,11 @@ h6 {
     opacity: 0.5;
   }
 }
+
+.vimeo-screen {
+	width: 640px;
+	height: 500px;
+}
 /* .loader { */
     /* border: 16px solid #f3f3f3; /* Light grey */
     /* border-top: 16px solid #048023; /* Dark Green */
@@ -645,6 +650,11 @@ h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  
+	.vimeo-screen {
+		width: 350px;
+		height: 350px;
+	}
 }
 
 /*--------------------------------------------------------------
