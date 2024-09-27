@@ -583,8 +583,8 @@ h6 {
 }
 
 .vimeo-screen {
-	width: 640px;
-	height: 500px;
+	width: 700px;
+	height: 350px;
 }
 /* .loader { */
     /* border: 16px solid #f3f3f3; /* Light grey */
@@ -788,7 +788,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  /* background: color-mix(in srgb, var(--background-color), transparent 30%); */
   position: absolute;
   inset: 0;
   z-index: 2;
