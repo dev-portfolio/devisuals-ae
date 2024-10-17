@@ -591,6 +591,16 @@ h6 {
 	width: 980px;
 	height: 450px;
 }
+
+.linktree {
+	width: 21px;
+    opacity: 0.5;
+}
+
+.linktree-footer {
+	width: 21px;
+    opacity: 1;
+}
 /* .loader { */
     /* border: 16px solid #f3f3f3; /* Light grey */
     /* border-top: 16px solid #048023; /* Dark Green */
@@ -659,6 +669,15 @@ h6 {
 	.vimeo-screen {
 		width: 350px;
 		height: 350px;
+	}
+	
+	.vimeo-screen-full {
+		width: 350px;
+		height: 350px;
+	}
+	
+	.header-social-links {
+		display: none !important;
 	}
 	
 	.testimonial-item h1 {
