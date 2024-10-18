@@ -559,10 +559,10 @@ h6 {
 #preloader:before {
   content: "";
   position: fixed;
-  top: calc(50% - 60px);
-  left: calc(50% - 60px);
-  width: 160px;
-  height: 160px;
+  top: calc(50% - 200px);
+  left: calc(50% - 300px);
+  width: 550px;
+  height: 360px;
   background: url(../img/loader.png);
   background-size: cover;
   animation: animate-preloader 1s linear infinite;
