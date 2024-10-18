@@ -561,9 +561,9 @@ h6 {
   position: fixed;
   top: calc(50% - 60px);
   left: calc(50% - 60px);
-  width: 140px;
-  height: 100px;
-  background: url(../img/logo.png);
+  width: 160px;
+  height: 160px;
+  background: url(../img/loader.png);
   background-size: cover;
   animation: animate-preloader 1s linear infinite;
 }
