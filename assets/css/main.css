@@ -2,7 +2,7 @@
 * Template Name: Laura
 * Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
 * Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
+* Author: BootstrapMade.c	om
 * License: https://bootstrapmade.com/license/
 */
 
@@ -12,9 +12,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: 'Futura Std', sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: 'Futura Std', sans-serif;
-  --nav-font: 'Futura Std', sans-serif;
+  --default-font: 'Marcellus', sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: 'Marcellus', sans-serif;
+  --nav-font: 'Marcellus', sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -63,7 +63,7 @@
 body {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-family: 'Futura Std', sans-serif;;
+  font-family: 'Marcellus', sans-serif;;
 }
 
 a {
@@ -683,6 +683,10 @@ h6 {
 	.testimonial-item h1 {
 		font-size: 2rem !important;
 	}
+	
+	.section-title {
+		width: 80%
+}
 }
 
 /*--------------------------------------------------------------
@@ -755,11 +759,12 @@ section,
   padding: 30px 0;
   margin-bottom: 30px;
   position: relative;
+    width: 50%;
 }
 
 .section-title h2 {
   font-size: 42px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
@@ -784,6 +789,7 @@ section,
   margin-bottom: 0;
   position: relative;
   z-index: 2;
+
 }
 
 @media (max-width: 575px) {
@@ -791,6 +797,9 @@ section,
     font-size: 28px;
     margin-bottom: 15px;
   }
+  .section-title {
+	width: 80%
+}
 
   .section-title span {
     font-size: 38px;
@@ -831,10 +840,21 @@ section,
 .hero .container {
   position: relative;
   z-index: 3;
+  width: fit-content;
+}
+
+.hero .separator{
+	border-bottom: 3px solid red;
+	  margin: 10px 30px 0 30px;
+}
+
+.hero .title-color {
+	color: red;
 }
 
 .hero h1 {
   font-size: 5rem;
+
 }
 
 .hero .video-wrap {
@@ -898,7 +918,7 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about .content h2 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
 }
 
@@ -911,6 +931,7 @@ section,
     display: flex;
     flex-direction: column;
     justify-content: center;
+	text-align: center;
 }
 
 .about .content ul {
@@ -1067,7 +1088,7 @@ section,
 .testimonials {
   padding: 80px 0;
   position: relative;
-  background: transparent;
+  background:  url(../img/profile-img.jpg);
   background-attachment: fixed;
   background-size: cover;  
 }
@@ -1178,6 +1199,30 @@ section,
   opacity: 1;
 }
 
+.testimonials .btn-wrap {
+  padding: 15px;
+  text-align: center;
+}
+
+.testimonials .btn-buy {
+  color: var(--accent-color);
+  background-color: transparent;
+  border: 2px solid var(--accent-color);
+  display: inline-block;
+  padding: 10px 40px 12px 40px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.testimonials .btn-buy:hover {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
     width: 80%;
@@ -1233,6 +1278,7 @@ section,
 .portfolio .portfolio-content {
   position: relative;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .portfolio .portfolio-content img {
@@ -1616,8 +1662,8 @@ section,
   border-color: var(--accent-color);
 }
 
-.service img {
-  
+.services-cover {
+  background-image: url(../img/services-cover.jpg);
 }
 
 .service-details h3 {
