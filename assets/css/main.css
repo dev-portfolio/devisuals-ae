@@ -848,7 +848,7 @@ section,
 	  margin: 10px 30px 0 30px;
 }
 
-.hero .title-color {
+.title-color {
 	color: red;
 }
 
@@ -1632,10 +1632,29 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
+
+.service-details-page {
+	background-color: #f5f0ea !important;
+}
+
+.service-details-page .header {
+	background-color: rgba(0, 0, 0, 0.8); !important;
+}
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
+
+#service-details {
+	background-color: #f5f0ea !important;
+}
+
+.service-details-page .page-title {
+	background-color: #f5f0ea !important;
+	padding: 100px 0 80px 0;
+}
+
 .service-details .services-list {
+	    
   background-color: var(--surface-color);
   padding: 10px 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
@@ -1662,22 +1681,36 @@ section,
   border-color: var(--accent-color);
 }
 
-.services-cover {
-  background-image: url(../img/services-cover.jpg);
-}
-
-.service-details h3 {
-  font-size: 26px;
-  font-weight: 700;
-}
-
-.service-details h4 {
-  font-size: 20px;
-  font-weight: 700;
+.service-details h1 {
+	font-size: 54px;
+	color: black;
 }
 
 .service-details p {
-  font-size: 15px;
+  font-size: 20px;
+  color: black;
+}
+
+.service-details h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height:1.7;
+   color: black;
+}
+
+.service-details h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #595959;
+  font-style: italic;
+}
+
+.service-details .property-features-color {
+	color: red;
+}
+
+.service-details .cinematic-price {
+	font-size: 24px;
 }
 
 .service-details ul {
